@@ -1,11 +1,12 @@
 ﻿using QuickBuy.Dominio.ObjetoDeValor;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace QuickBuy.Dominio.Entidades
 {
-    public class Pedido
+    public class Pedido : Entidade
     {
         public int Id { get; set; }
         public DateTime DataPedido { get; set; }
@@ -22,6 +23,21 @@ namespace QuickBuy.Dominio.Entidades
         //Um pedido terá MUITOS ITENS DE pedido ou NENHUM ITEM DE PEDIDO
         // A classe PEDIDO podera ter diversos pedidos dentro dela mesmo, pois ela terá vários itens
         // que farão uso desse pedido, o pedido tem vários produtos com quantidades diferentes
-        
+
+        public override void Validate()// estamos utilizando esse metodo para validar se tem um item e se não tiver ele vai mostrar a mensagem de validação
+        {
+            LimparMensagensValidacao();
+
+            if (!ItensPedidos.Any())
+                AdicionarCritica("Crítica: Pedido não pode ficar sem item de pedido");
+            
+            if (string.IsNullOrEmpty(CEP))
+                AdicionarCritica("Crítica: CEP deve estar preenchido");
+
+            // estamos utilizando esse metodo para validar se tem um item e se não tiver ele vai
+            // mostrar a mensagem de validação
+
+        }
+
     }
 }
