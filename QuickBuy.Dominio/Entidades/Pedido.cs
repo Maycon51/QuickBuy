@@ -33,8 +33,9 @@ namespace QuickBuy.Dominio.Entidades
             
             if (string.IsNullOrEmpty(CEP))
                 AdicionarCritica("Crítica: CEP deve estar preenchido");
-
-            // estamos utilizando esse metodo para validar se tem um item e se não tiver ele vai
+            if (FormaPagamentoId == 0)
+                AdicionarCritica("Não foi informada a forma de pagamento");
+             // estamos utilizando esse metodo para validar se tem um item e se não tiver ele vai
             // mostrar a mensagem de validação
 
         }

@@ -18,9 +18,9 @@ namespace QuickBuy.Dominio.Entidades
             mensagemValidacao.Clear();
         }
 
-        protected void AdicionarCritica(string mensagem) 
+        protected void AdicionarCritica(string mensagem)//usamos para adicionar uma mensagem de critica nas demais classes
         {
-            mensagemValidacao.Add(mensagem);
+            mensagemValidacao.Add(mensagem);// é um metodo para adicionar
         }
 
         public abstract void Validate();
