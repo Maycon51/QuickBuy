@@ -32,7 +32,13 @@ namespace QuickBuy.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             var connectionString = Configuration.GetConnectionString("QuickBuyDB");
             //ele esta percorrendo a string de conexão procurando o quickbuydb
-            services.AddDbContext<QuickBuyContexto>(option => option.UseMySql(connectionString,m => m.MigrationsAssembly("QuickBuy.Repositorio")));
+            services.AddDbContext<QuickBuyContexto>(option => option
+
+            .UseLazyLoadingProxies()//MUITO IMPORTANTE
+            //ELE VAI SER RESPONSAVEL POR FAZER A VINCULAÇÃO ENTRE AS CLASSES PARA CARREGAR AUTOMATICAMENTE NO BANCO
+            //* EX:VAI PEGAR TODOS OS PEDIDOS RELACIONADOS AO USUARIO******
+
+            .UseMySql(connectionString,m => m.MigrationsAssembly("QuickBuy.Repositorio")));
             //vai ser responsavel por abrir a conexão com o banco de dados
 
 

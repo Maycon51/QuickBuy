@@ -10,8 +10,9 @@ namespace QuickBuy.Dominio.Entidades
         public string Senha { get; set; }
         public string Nome { get; set; }
         public string SobreNome { get; set; }
-        public ICollection<Pedido> Pedidos { get; set; }
-
+        public virtual ICollection<Pedido> Pedidos { get; set; }
+        //o collection relaciona o usuario com o pedidos, pois um usuario pode ter vários pedidos ou nenhum
+        // o virtual vai fazer que o sistema permita a sobreposição em tempo de execução
         public override void Validate()
         {
             if (string.IsNullOrEmpty(Email))
