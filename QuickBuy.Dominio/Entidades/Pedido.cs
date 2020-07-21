@@ -19,10 +19,10 @@ namespace QuickBuy.Dominio.Entidades
         public string Estado { get; set; }
         public string EnderecoCompleto { get; set; }
         public int NumeroEndereco { get; set; }
-        public FormaPagamento FormaPagamento { get; set; }
+        public virtual FormaPagamento FormaPagamento { get; set; }
         public int FormaPagamentoId { get; set; }
         //identificador da forma de pagamento
-        public ICollection<ItemPedido> ItensPedidos { get; set; }
+        public virtual ICollection<ItemPedido> ItensPedidos { get; set; }
         //Um pedido terá MUITOS ITENS DE pedido ou NENHUM ITEM DE PEDIDO
         // A classe PEDIDO podera ter diversos pedidos dentro dela mesmo, pois ela terá vários itens
         // que farão uso desse pedido, o pedido tem vários produtos com quantidades diferentes
