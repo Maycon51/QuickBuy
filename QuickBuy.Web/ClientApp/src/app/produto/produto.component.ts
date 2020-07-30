@@ -4,7 +4,7 @@ import {Component } from "@angular/core"//importando do nucleo do angular
 
 @Component//decorator componente que vai injetar o produtocomponent como componente
   ({
-    selector: "produto",//nome da tag que será reenderizado
+    selector: "app-produto",//nome da tag que será reenderizado
     template: "<html><body>{{  obterNome()  }}</body></html>"
 })//precisamos definir no template qual sera 
 
