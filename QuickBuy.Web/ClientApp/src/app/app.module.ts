@@ -9,7 +9,8 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
-import { ProdutoComponent } from './produto/produto.component'
+import { ProdutoComponent } from './produto/produto.component';
+import { LoginComponent } from './usuario/login/login.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProdutoComponent } from './produto/produto.component'
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    ProdutoComponent //tenho que declarar em tudo pra evitar problema pq é decorator configurando os comp
+    ProdutoComponent, //tenho que declarar em tudo pra evitar problema pq é decorator configurando os comp
+    LoginComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -28,7 +30,8 @@ import { ProdutoComponent } from './produto/produto.component'
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'produto', component: ProdutoComponent }//definindo o caminho
+      { path: 'produto', component: ProdutoComponent },//definindo o caminho
+      { path: 'entrar', component: LoginComponent }
     ])
   ],
   providers: [],
