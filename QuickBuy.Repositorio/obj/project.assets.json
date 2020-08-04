@@ -4104,23 +4104,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\may_c\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\may_c\\Desktop\\Maycon\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
+      "projectUniqueName": "C:\\Projetos\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
       "projectName": "QuickBuy.Repositorio",
-      "projectPath": "C:\\Users\\may_c\\Desktop\\Maycon\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
-      "packagesPath": "C:\\Users\\may_c\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\may_c\\Desktop\\Maycon\\QuickBuy\\QuickBuy.Repositorio\\obj\\",
+      "projectPath": "C:\\Projetos\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\QuickBuy\\QuickBuy.Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\may_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4133,8 +4133,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\may_c\\Desktop\\Maycon\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
-              "projectPath": "C:\\Users\\may_c\\Desktop\\Maycon\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj"
+            "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
+              "projectPath": "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj"
             }
           }
         }

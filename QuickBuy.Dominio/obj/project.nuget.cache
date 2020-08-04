@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8OzVifW1ffvCcEHb5patnClP7qcRSkOxLHXejRFwLEGxyMjPBirbb/NRlBYpXMj/Qsi6+laUaOc8H+2kNbkOGg==",
+  "dgSpecHash": "EXFH+cRwWwuivbn/sbfXqcLEo5bQVvzGrDrKsDild72LbARUtnM3E2knwcPJukgB6vrV8Ad4y7sC4EpTwCWJNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\may_c\\Desktop\\Maycon\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+  "projectFilePath": "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
