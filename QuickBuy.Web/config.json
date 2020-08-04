@@ -7,7 +7,7 @@
   
   {
     "SqlServerConnection": "",
-    "QuickBuyDB": "server=localhost;uid=root;pwd=crismay10;database=QuickBuyDB"
+    "QuickBuyDB": "server=127.0.0.1;uid=root;pwd=crismay10;database=QuickBuyDB"
   }
 
 }
