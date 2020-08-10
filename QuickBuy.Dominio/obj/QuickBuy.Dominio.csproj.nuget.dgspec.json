@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pczao\\Desktop\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {}
+    "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pczao\\Desktop\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
+    "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pczao\\Desktop\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+        "projectUniqueName": "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
         "projectName": "QuickBuy.Dominio",
-        "projectPath": "C:\\Users\\pczao\\Desktop\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
-        "packagesPath": "C:\\Users\\pczao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pczao\\Desktop\\QuickBuy\\QuickBuy.Dominio\\obj\\",
+        "projectPath": "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\QuickBuy\\QuickBuy.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pczao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
