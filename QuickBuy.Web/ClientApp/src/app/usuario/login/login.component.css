@@ -44,7 +44,11 @@
   margin:auto;
 }
 
-.Imagem {
+.ImagemEndereco {
   margin: auto;
+  max-width: 420px;
+}
+
+.img {
   max-width: 420px;
 }
