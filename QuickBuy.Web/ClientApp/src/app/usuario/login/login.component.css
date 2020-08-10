@@ -1,3 +1,50 @@
-body {
+.form-signin {
+  width: 100%;
+  max-width: 650px;
+  padding: 15px;
+  margin: auto;
   
+}
+
+  .form-signin input[type=email] {
+    max-width: 420px;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+  .form-signin input[type=password] {
+    max-width: 420px;
+    margin: auto;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 5px;
+  }
+
+  .form-signin .form-control {
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .form-signin .h4 {
+    max-width: 420px;
+    padding: 50px;
+    margin: auto;
+    color: antiquewhite;
+    border-radius: 15px;
+    background-image: url("https://image.shutterstock.com/image-photo/computer-code-on-screen-skull-600w-1050436496.jpg");
+    background-color: #cccccc;
+  }
+.btn-primary {
+  max-width: 420px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin:auto;
+}
+
+.Imagem {
+  margin: auto;
+  max-width: 420px;
 }

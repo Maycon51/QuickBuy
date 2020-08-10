@@ -11,5 +11,6 @@ import { Component } from "@angular/core"//importando do nucleo do angular
 
 export class LoginComponent
 {
-
+  public imagemEndereco = "http://www.pngmart.com/files/6/Matrix-PNG-File-1.png";
+  public textoImagem = "Imagem padrão";
 }
