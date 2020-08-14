@@ -1,4 +1,5 @@
 import { Component } from "@angular/core"//importando do nucleo do angular
+import { Usuario } from "../../modelo/usuario";
 //usamos esse import para que nossa classe trabalhe como componente no angular
 //tem que declarar esse component  na app module que é o principal arquivo do TS pra funcionar
 
@@ -11,5 +12,14 @@ import { Component } from "@angular/core"//importando do nucleo do angular
 
 export class LoginComponent
 {
- 
+  public usuario;
+
+  constructor() {
+    this.usuario = new Usuario();
+
+  }
+  entrar() {
+    alert(this.usuario.email + '-' + this.usuario.senha);
+  }
+
 }

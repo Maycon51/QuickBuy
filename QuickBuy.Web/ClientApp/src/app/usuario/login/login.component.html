@@ -8,17 +8,17 @@
 
     <input type="email" id="inputEmail"
            name="email" placeholder="Digite seu email"
-           class="form-control mb-2" />
+           class="form-control mb-2"
+           [(ngModel)]="usuario.email"/>
 
     <label for="inputEmail" class="sr-only"> Senha </label>
 
     <input type="password" id="inputSenha"
            name="senha" placeholder="Digite sua senha"
-           class="form-control mb-2" />
+           class="form-control mb-2"
+           [(ngModel)]="usuario.senha"/>
 
     <button class="btn btn-primary btn-block" type="submit" (click)="entrar()">Entrar</button>
-
-    <img src="C:\Projetos\QuickBuy\QuickBuy.Web\ClientApp\src\assets\img\code.png" />
     
   </form>
 </div>
