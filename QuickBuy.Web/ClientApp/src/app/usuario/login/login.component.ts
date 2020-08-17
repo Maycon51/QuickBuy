@@ -13,13 +13,14 @@ import { Usuario } from "../../modelo/usuario";
 export class LoginComponent
 {
   public usuario;
+  public usuarioAutenticado: Boolean;
 
   constructor() {
     this.usuario = new Usuario();
 
   }
   entrar() {
-    alert(this.usuario.email + '-' + this.usuario.senha);
+    
   }
 
 }
